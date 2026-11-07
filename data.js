@@ -17,6 +17,11 @@ const RESUME = {
     location: "广西 · 南宁",
     years: "应届",
     tagline: "让数据从采集走到决策",
+    typing: [
+      "Hadoop · Spark · 实时计算",
+      "Python · SQL · 数据全流程",
+      "LangChain · RAG · 本地知识库"
+    ],
     intro:
       "数据科学与大数据技术专业 2026 届本科毕业生，具备数据链路全流程实践：能独立完成 Hadoop / Spark 分布式环境搭建与实时数据开发，熟练使用 Python（Pandas / NumPy / Scrapy）与 SQL 完成采集、清洗、分析到报表输出；熟悉 LangChain 与 RAG 技术栈，独立落地本地化向量知识库问答系统。2 段数据相关实习，习惯用数据支撑运营与产品决策。",
     email: "3161159058@qq.com",
