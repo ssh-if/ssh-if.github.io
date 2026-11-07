@@ -143,6 +143,7 @@ const RESUME = {
       name: "基于 Spark 的实时交通流量监测系统",
       category: "大数据 · 核心开发",
       year: "2026",
+      period: "2025.12 — 2026.05",
       featured: true,
       brief: "基于 Spark 生态搭建实时交通数据处理与预测链路，实现流量监测、短时预测与拥堵预警。",
       description:
@@ -162,6 +163,7 @@ const RESUME = {
       name: "RAG 知识库问答系统",
       category: "AI 应用 · 独立开发",
       year: "2026",
+      period: "2026.04 — 2026.05",
       brief: "本地化 RAG 文档问答系统，支持 TXT / Markdown 上传与多轮对话，准确率 85% 以上。",
       description:
         "基于检索增强生成（RAG）的文档智能问答系统：文档上传后完成切分与向量化入库，检索相关片段增强大模型回答，并支持多轮对话。向量化与检索环节全部本地运行，不产生 API 费用。",
@@ -181,6 +183,7 @@ const RESUME = {
       name: "智联招聘职位信息分析",
       category: "数据采集 · 独立开发",
       year: "2025",
+      period: "2025.09 — 2025.10",
       brief: "采集公开招聘岗位数据，分析薪资与地域、经验的相关性，输出可视化结论与求职建议。",
       description:
         "一次完整的数据分析实践：从公开招聘岗位数据采集，到清洗标准化、结构化建模，再到相关性分析与可视化呈现，最终形成可落地的求职决策建议。",
@@ -200,6 +203,7 @@ const RESUME = {
       name: "教务管理系统测试项目",
       category: "软件测试 · 个人练习",
       year: "2025",
+      period: "2025.06 — 2025.08",
       brief:
         "以教务管理 SaaS 系统为对象的完整测试流程练习：测试计划、用例设计、接口自动化、压测与缺陷管理。",
       description:
@@ -220,6 +224,7 @@ const RESUME = {
       name: "俄罗斯方块 Tetris",
       category: "工程实践 · 独立开发",
       year: "2026",
+      period: "2026.01 — 2026.02",
       brief: "Python + Pygame 实现，逻辑层与渲染层解耦，60FPS 稳定运行。",
       description:
         "用 Python 与 Pygame 从零实现的经典俄罗斯方块，重点在核心逻辑与渲染的解耦设计，以及接近商业实现的操作手感。",
