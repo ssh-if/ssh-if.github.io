@@ -62,7 +62,7 @@ const RESUME = {
     facts: [
       { label: "求职方向", value: "大数据 / 数据开发" },
       { label: "学历", value: "本科 · 2026 届" },
-      { label: "期望城市", value: "南宁 / 深圳 / 广州" },
+      { label: "期望城市", value: "南宁" },
       { label: "到岗时间", value: "可立即到岗" }
     ]
   },
