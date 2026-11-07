@@ -224,7 +224,7 @@
             <span class="cover-index">${index}</span>
             <div class="cover-meta">
               <span class="cover-category">${esc(p.category)}</span>
-              <span class="cover-year">${esc(p.year)}</span>
+              <span class="cover-year">${esc(p.period || p.year)}</span>
             </div>
           </div>
           <div class="project-body">
@@ -271,7 +271,7 @@
     modalBody.innerHTML = `
       <div class="modal-hero cover-${esc(p.theme || "cyan")}">
         <span class="cover-index">${idx}</span>
-        <span class="modal-category">${esc(p.category)} · ${esc(p.year)}</span>
+        <span class="modal-category">${esc(p.category)} · ${esc(p.period || p.year)}</span>
         <h3 id="modalTitle">${esc(p.name)}</h3>
       </div>
       <div class="modal-content">
