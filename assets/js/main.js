@@ -376,11 +376,10 @@
     const target = $("#typed");
     if (!target) return;
 
-    const phrases = [
-      "数据治理与指标体系",
-      "从 0 到 1 的项目落地",
-      "把数据变成决策"
-    ];
+    const phrases =
+      Array.isArray(RESUME.meta.typing) && RESUME.meta.typing.length
+        ? RESUME.meta.typing
+        : ["数据开发", "数据分析", "AI 应用"];
 
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
       target.textContent = phrases[0];
