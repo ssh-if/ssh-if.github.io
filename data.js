@@ -27,7 +27,7 @@ const RESUME = {
     email: "3161159058@qq.com",
     phone: "18577994961",
     wechat: "",
-    resumePdf: "", // 把 PDF 简历放到 assets/resume.pdf 后，这里填 "assets/resume.pdf"
+    resumePdf: "assets/resume.pdf",
     socials: [
       { label: "GitHub", icon: "github", url: "https://github.com/ssh-if" }
     ]
